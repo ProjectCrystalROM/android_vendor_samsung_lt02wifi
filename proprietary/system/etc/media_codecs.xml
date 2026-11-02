@@ -80,7 +80,6 @@ Only the three quirks included above are recognized at this point:
         <MediaCodec name="OMX.MARVELL.VIDEO.HW.CODA7542DECODER" >
             <Type name="video/mp4v-es" />
             <Type name="video/3gpp" />
-            <Type name="video/avc" />
             <Type name="video/mpeg2" />
             <Type name="video/wvc1" />
             <Type name="video/x-ms-wmv" />
@@ -95,8 +94,9 @@ Only the three quirks included above are recognized at this point:
         <MediaCodec name="OMX.google.mpeg4.decoder" type="video/mp4v-es" />
         <MediaCodec name="OMX.MARVELL.VIDEO.H263DECODER" type="video/3gpp" />
         <MediaCodec name="OMX.google.h263.decoder" type="video/3gpp" />
-        <MediaCodec name="OMX.MARVELL.VIDEO.H264DECODER" type="video/avc" />
+        <MediaCodec name="OMX.ffmpeg.h264.decoder" type="video/avc" />
         <MediaCodec name="OMX.google.h264.decoder" type="video/avc" />
+        <MediaCodec name="OMX.MARVELL.VIDEO.H264DECODER" type="video/avc" />
 
         <MediaCodec name="OMX.MARVELL.VIDEO.WMVDECODER" >
             <Type name="video/wmv3" />
